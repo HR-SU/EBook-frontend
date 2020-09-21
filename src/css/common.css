@@ -1,0 +1,146 @@
+#left_menu{
+  float: left;
+  width: 90%;
+}
+#navigate{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: lightgray;
+}
+li.tag{
+  float: left;
+}
+.menu{
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  padding: 10px 12px;
+  background-color: lightgray;
+  color: black;
+}
+.menu:hover{
+  background-color: darkgray;
+  color: seashell;
+  cursor: pointer;
+}
+.menu_active{
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  padding: 10px 12px;
+  background-color: darkblue;
+  color: ivory;
+}
+#welcome{
+  width: 10%;
+  position: relative;
+  float: right;
+}
+#dropdown{
+  position: absolute;
+  display: none;
+  width: 100%;
+}
+#dropdown a{
+  padding: 10px 12px;
+  display: block;
+  text-decoration: none;
+}
+#welcome:hover #dropdown{
+  display: block;
+}
+.books{
+  width: 250px;
+  height: 400px;
+  float: left;
+  margin: 5px;
+}
+.img{
+  width: 200px;
+  height: 200px;
+}
+p.book_info{
+  text-align: center;
+  font-size: 0.75em;
+}
+.in-book-info{
+  padding: 2px 2%;
+  width: 95%;
+  font-size: 0.75em;
+}
+#login_header, #reg_header
+{
+  text-align: center;
+}
+#shop_block,#order_block{
+  clear: both;
+  width: 40%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,5px);
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px 10px;
+}
+#clear_shop_cart{
+  clear: both;
+  width: 98%;
+  margin: 5px;
+}
+
+.shop_item{
+  clear: both;
+  width: 98%;
+  height: 120px;
+  margin: 5px;
+  border: 0.5px solid lightgray;
+  border-radius: 4px;
+}
+.order_item {
+  margin: 5px;
+}
+.shop_item_img,.order_item_img{
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+.shop_item_info{
+  float: left;
+}
+.order_item_info{
+  float: right;
+  margin-right: 15px;
+}
+.shop_item_remove{
+  float: right;
+  margin-bottom: 5px;
+}
+.order_date_picker{
+  margin-left: 37%;
+  margin-top: 5px;
+}
+.bg_font_size {
+   font-size: 1.25em;
+ }
+.bgg_font_size {
+  font-size: 1.5em;
+}
+.bolder_font_weight {
+  font-weight: bolder;
+}
+.float_right {
+  float: right;
+}
+.price {
+  font-weight: bolder;
+  color: red;
+  margin-top: 0;
+  margin-right: 1px;
+}
+.one_row {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
